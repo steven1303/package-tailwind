@@ -1,0 +1,17 @@
+{
+    "name": "steven1303/admin-panel",
+    "description": "admin panel tailwind standard",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Steven1303\\AdminPanel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "steven1303"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "steven1303/admin-template",
+    "description": "this is tailwind template",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Steven1303\\AdminTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "steven1303"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
