@@ -6,8 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class AdminServiceProvider extends ServiceProvider
 {
-    
-
     public function register()
     {
 
@@ -15,7 +13,7 @@ class AdminServiceProvider extends ServiceProvider
     
     public function boot()
     {
-        // View Components
-        $this->loadViewsFrom(__DIR__.'/Components','admin-templates');
+        // View Source
+        $this->loadViewsFrom(__DIR__.'/views','admin-templates');
     }
 }
