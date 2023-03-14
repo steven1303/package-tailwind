@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Steven1303\AdminTemplate\AdminServiceProvider::class,
         /*
          * Application Service Providers...
          */

@@ -13,6 +13,9 @@ class AdminServiceProvider extends ServiceProvider
     
     public function boot()
     {
+        // Route
+        $this->loadRoutesFrom(__DIR__.'/routes/test.php');
+
         // View Source
         $this->loadViewsFrom(__DIR__.'/views','admin-templates');
     }
